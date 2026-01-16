@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="order-worker" />
+        <module name="common" />
+        <module name="stock-price-service" />
+        <module name="price-consumer-service" />
+        <module name="risk-service" />
+        <module name="websocket-service" />
+        <module name="trading-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="order-worker (1)" target="1.8" />
+      <module name="price-consumer-service (1)" target="1.8" />
+      <module name="risk-service (1)" target="1.8" />
+      <module name="stock-price-service (1)" target="1.5" />
+      <module name="trading-service (1)" target="1.8" />
+      <module name="websocket-service (1)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
