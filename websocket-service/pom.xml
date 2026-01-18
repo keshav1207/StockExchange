@@ -11,7 +11,9 @@
         <version>1.0.0</version>
     </parent>
 
+    <groupId>com.stockexchange</groupId>
     <artifactId>websocket-service</artifactId>
+    <version>1.0.0</version>
 
     <dependencies>
         <!-- Shared code -->
@@ -33,6 +35,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>3.2.5</version>
             </plugin>
         </plugins>
     </build>

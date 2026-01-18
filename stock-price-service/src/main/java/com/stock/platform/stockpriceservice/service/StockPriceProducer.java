@@ -1,4 +1,4 @@
-package service;
+package com.stock.platform.stockpriceservice.service;
 
 import com.common.dto.StockPrice;
 import org.springframework.kafka.core.KafkaTemplate;

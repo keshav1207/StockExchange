@@ -1,4 +1,4 @@
-package config;
+package com.stock.platform.stockpriceservice.config;
 
 import com.common.dto.StockPrice;
 import org.springframework.context.annotation.Bean;
