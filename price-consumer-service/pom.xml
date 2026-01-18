@@ -10,7 +10,9 @@
         <version>1.0.0</version>
     </parent>
 
+    <groupId>com.stockexchange</groupId>
     <artifactId>price-consumer-service</artifactId>
+    <version>1.0.0</version>
 
     <dependencies>
         <!-- Shared code -->
@@ -32,6 +34,18 @@
             <artifactId>spring-kafka</artifactId>
         </dependency>
 
+        <!-- Redis -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+
+        <!-- WebSocket -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-websocket</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -39,6 +53,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>3.2.5</version>
             </plugin>
         </plugins>
     </build>
