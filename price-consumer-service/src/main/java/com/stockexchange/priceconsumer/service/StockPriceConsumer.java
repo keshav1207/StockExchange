@@ -1,4 +1,4 @@
-package service;
+package com.stockexchange.priceconsumer.service;
 
 import com.common.dto.StockPrice;
 import org.springframework.data.redis.core.RedisTemplate;
